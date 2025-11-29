@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""salam"""
+""" Returns list of schools having a specific topic """
+
 
 def schools_by_topic(mongo_collection, topic):
-"""salam"""
+    """Return list of school documents that contain the topic"""
     return list(mongo_collection.find({ "topics": topic }))
