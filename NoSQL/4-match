@@ -1,2 +1,2 @@
 // salam
-db.school.find({ "_id" : ObjectId("5a8fad532b69437b63252406"), "name" : "Holberton school" });
+db.school.find({ "_id" : ObjectId("5a8fad532b69437b63252406"), "name" : "Holberton school" })
