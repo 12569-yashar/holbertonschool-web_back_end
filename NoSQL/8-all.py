@@ -4,5 +4,4 @@
 
 def list_all(mongo_collection):
     """salam"""
-    return 
-mongo_collection.find()
+    return mongo_collection.find()
